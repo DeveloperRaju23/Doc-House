@@ -39,3 +39,7 @@
 .time_doc_2nd{
     @apply bg-[#F7A582] py-9 px-14 rounded-lg text-[#FFFFFF]
 }
+
+.contact_input{ 
+    @apply  py-4 px-3 text-white m-1 border-2 outline-none bg-emerald-900	 rounded-lg border-[#07332F] shadow-lg 
+}

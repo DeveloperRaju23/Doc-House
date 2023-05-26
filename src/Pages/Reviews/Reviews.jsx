@@ -21,7 +21,7 @@ const Reviews = () => {
         <div>
         <Swiper
         slidesPerView={2}
-        spaceBetween={30}
+        spaceBetween={20}
         freeMode={true}
         pagination={{
             clickable: true,
@@ -33,7 +33,7 @@ const Reviews = () => {
                     spaceBetween: 10,
                 },
                 480:{
-                    slidePrevClass : 1,
+                    slidePrevClass : 2,
                     spaceBetween: 10,
                 },
                 780:{
@@ -51,12 +51,13 @@ const Reviews = () => {
            <div className="py-14 px-8 cursor-pointer">
            {/* <Rating style={{ maxWidth: 180 }} value={review.rating} readOnly /> */}
           <div>
-        <div className='flex items-center gap-4'>
+        <div className='flex items-center gap-4 pb-4'>
         <img className="" src={review.image} alt="" />
-           <div className='flex-col items-center'>
+           <div className='flex-col items-center justify-between lg:me-44 me-6 md:me-14'>
            <h4 className="">{review.name}</h4>
            <p>{review.title}</p>
            </div>
+           <img src={review.icon} alt="" />
         </div>
            <span className="text-center text-[#444444] pb-2">{review.desc}</span>
           </div>
