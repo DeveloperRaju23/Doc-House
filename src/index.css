@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply max-w-6xl mx-auto 
+}
+
+.footer_title{
+    @apply text-xl md:text-2xl text-[#0A0808] font-bold pb-4
+}
+
+.footer_link {
+    @apply text-[#6C6B6B] text-lg
+}
+
+.primary_btn{
+    @apply text-[#F7A582] border-2 border-[#F7A582] text-lg md:text-xl font-bold md:py-3 py-2 px-3 md:px-4  rounded-lg mt-4
+}
+.banner_title{
+    @apply text-[#F3F3F3] xl:text-7xl md:text-4xl text-2xl lg:text-6xl
+}
+.banner_btn{
+    @apply text-[#F3F3F3] bg-[#F7A582] text-lg md:text-xl font-bold md:py-3 py-2 px-3 md:px-4  rounded-lg mt-4
+}
+.primary_color{
+    @apply bg-[#07332F]
+}
+
+.time_doc{
+    @apply bg-[#07332F] py-9 px-14 rounded-lg text-[#FFFFFF]
+}
+.time_doc_2nd{
+    @apply bg-[#F7A582] py-9 px-14 rounded-lg text-[#FFFFFF]
+}
